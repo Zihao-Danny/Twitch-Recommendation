@@ -3,7 +3,7 @@ package com.example.jupiter.db;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
-//make some change here
+
 public class MySQLTableCreator {
     public static void main(String[] args) {
         try {
