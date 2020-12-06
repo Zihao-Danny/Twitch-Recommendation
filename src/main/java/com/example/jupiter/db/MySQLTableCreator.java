@@ -16,8 +16,6 @@ public class MySQLTableCreator {
             if (conn == null) {
                 return;
             }
-
-
             // Step 2 Drop tables in case they exist.
             Statement statement = conn.createStatement();
             String sql = "DROP TABLE IF EXISTS favorite_records";
