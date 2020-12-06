@@ -7,7 +7,6 @@ import java.sql.Statement;
 public class MySQLTableCreator {
     public static void main(String[] args) {
         try {
-
             // Step 1 Connect to MySQL.
             System.out.println("Connecting to " + MySQLDBUtil.getMySQLAddress());
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
