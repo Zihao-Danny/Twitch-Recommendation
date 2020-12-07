@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
+//this class only use once to create the tables
 public class MySQLTableCreator {
     public static void main(String[] args) {
         try {
