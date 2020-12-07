@@ -2,4 +2,4 @@ target/
 .idea/
 webapp
 jupiter.iml
-.gradle/
+/src/main/resources/
